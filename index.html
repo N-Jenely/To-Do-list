@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+  <head> 
+    <link href='./style.css' rel='stylesheet'>
+    
+</head>
+
+<body>
+  <header>
+    <h1>To Do list</h1>
+    <nav> *NAV PLACEHOLDER* </nav>
+  </header>
+  <main>
+    <section class="submission">
+      <form>
+      <label for="tasks">Put your task here</label>
+    	<input type="text" name="tasks" id="tasks">
+      <label for="extra"></label>
+      <br>
+      <textarea id="task-d" name="extra" >Put the task description here</textarea> 
+      <label for="lunch">What is the priority level?</label>
+  <select id="priority">
+    <option id="Low">Low</option>
+    <option id="Medium">Medium</option>
+    <option id="High">High</option>
+  </select>
+      <button> Submit </button>
+      </form>
+ </section>
+  <section>
+    <table>
+      <thead>
+        <tr>
+          <th><a id="tasks-title">Tasks for the day</a></th>
+        </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a id="Low">Low</a> Priority Task</td>
+      </tr>
+    <tr>
+      <td><a id="High">High</a> Priority Task</td>
+    </tr>
+    <tr>
+      <td><a id="Low">Low</a> Priority Task</td>
+    </tr>
+    <tr>
+      <td><a id="Medium">Medium</a> Priority Task</td>
+    </tr>
+    <tr>
+      <td><a id="Medium">Medium</a> Priority Task</td>
+    </tr>
+    <tr>
+      <td><a id="Medium">Medium</a> Priority Task</td>
+    </tr>
+    </tbody>
+    <tfoot>
+      <td>Total</td>
+      <td>6</td>
+    </tfoot>
+
+  </table>
+
+</section>
+
+  </main>
+
+
+  <footer> 
+    <button id="change">Change Theme</button>
+    <p>1: In the first box, put the name of the task.
+      2: In the second box, put other info/the description of the task.
+      3: Hit submit and see your task in the table.
+    </p>
+    <p>Created by Noah Jenely - CTE Computer Programming Student</p>
+  </footer>
+</body>
+</html>
